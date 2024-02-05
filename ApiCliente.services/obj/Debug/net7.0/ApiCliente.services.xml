@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCliente.services</name>
+    </assembly>
+    <members>
+        <member name="T:ApiCliente.Services.Models.ClientesViewModel">
+            <summary>
+            Modelo de dados para a entidade de cliente da API
+            </summary>
+        </member>
+        <member name="M:ApiCliente.services.Controllers.ClientesController.Post(ApiCliente.Services.Models.Requests.ClientesCreateRequest)">
+            <summary>
+            serviço para cadastro de clientes
+            </summary>
+        </member>
+        <member name="M:ApiCliente.services.Controllers.ClientesController.Put(ApiCliente.Services.Models.Requests.ClientesUpdateRequest)">
+            <summary>
+            serviço para Atualização de clientes
+            </summary>
+        </member>
+    </members>
+</doc>
